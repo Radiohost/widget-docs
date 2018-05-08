@@ -1,6 +1,7 @@
 ==========
 HandlebarsJS
 ==========
+
 HandlebarsJs to narzędzie umożliwiające budowanie **semantycznych szablonów**.
 
 Jest on w dużej mierze kompatybilny z szablonami *Mustache*. W większości przypadków jest możliwa
