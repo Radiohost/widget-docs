@@ -1,3 +1,3 @@
 * HandlebarsJS
- - `Ogólnie <../handlebarsjs/overview>`_
- - `Zastosowanie <../handlebarsjs/usage>`_
+ - `Ogólnie <../master/handlebarsjs,overview>`_
+ - `Zastosowanie <../master/handlebarsjs,usage>`_

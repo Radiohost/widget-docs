@@ -1,2 +1,2 @@
 * Widgety
- - `Szybki start <../start/overview>`_
+ - `Szybki start <../master/start,overview>`_
