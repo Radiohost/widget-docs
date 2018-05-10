@@ -5,7 +5,9 @@ Zastosowanie helperów
 ----------
 **#if_eq** (if equal | jeżeli równe) jest helperem sprawdzającym czy podane wartości są równe.
 Jego składnia wygląda następująco:
+
 .. code-block:: html
+
     {{#if_eq wartosc1 wartosc2}}
         Lorem ipsum
     {{/if_eq}}
@@ -13,7 +15,9 @@ Wartości mogą być zarówno elementami tablicy, obiektami jak i zwykłym tekst
 Jeśli obie wartości będą identyczne to zostanie przetworzony kod znajdujący się wewnątrz.
 
 **Przykład:**
+
 .. code-block:: html
+
     {{#each presenter.socials }} <!--pętla przelatująca przez wszystkie media społecznościowe przypisane danemu prezenterowi-->
         {{#if_eq service "facebook"}}
         <!--sprawdzanie czy nazwa media społecznościowego znajdująca się w obecnym elemencie "service" jest równa string-owi "facebook"--> 
@@ -33,7 +37,9 @@ Jeśli obie wartości będą identyczne to zostanie przetworzony kod znajdujący
 ----------
 **#if_not** jest helperem sprawdzającym czy podane wartości różnią się od siebie.
 Jego składnia wygląda następująco:
+
 .. code-block:: html
+
     {{#if_not wartosc1 wartosc2}}
         Lorem ipsum
     {{/if_not}}
@@ -41,7 +47,9 @@ Wartości mogą być zarówno elementami tablicy, obiektami jak i zwykłym tekst
 Jeśli któraś wartość będzie różna od pozostałej to zostanie przetworzony kod znajdujący się wewnątrz.
 
 **Przykład:**
+
 .. code-block:: html
+
     <script id="rh-radio-current-broadcast-template" type="text/html"> <!--zadeklarowanie szablonu-->
         <div class="col-md-12">
             {#if_eq $live true}
